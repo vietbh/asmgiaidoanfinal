@@ -1,0 +1,51 @@
+body {
+    padding: 50px;
+    background-color: #272a28;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    display: block;
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 55px 55px 37px;
+    background: black;
+    text-align: center;
+    margin-left: 250px ;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.form-word{
+    text-align: left;
+    padding-left: 100px;
+    font-size: 14px;
+}
+.form-group{
+    color: white
+}
+.form-control{
+    width: 300px;
+    height: 25px;
+}
+form .form-control{
+    margin:15px;
+}
+form .form-control:focus{
+    background-color:darkgray;
+}
+form .button{
+    box-shadow: 0 0 5px lightgray ;
+    border-radius:5px;
+    margin: 5px;
+    width: 145px;
+    height: 30px;
+}
+.button{
+    background-color: firebrick;
+}
+.button:hover{
+    background-color:lightslategray;
+}

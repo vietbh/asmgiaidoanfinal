@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    position: relative;
+    background-color:#f1f2ed;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+header .header{
+    margin: 10px;
+    padding: 10px;
+}
+/* ***** */
+body .menu{
+    float: left;
+    width: 24%;
+    margin: 20px 0px;
+    padding: 0px 5px;
+    height: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    clear:none;
+    display: block;
+    position:absolute;
+}
+body .men-shoe{
+    margin: 15px 0px;
+    padding: 0px 10px;
+    border-bottom: 1.5px black dotted;
+    margin-bottom: 20px;
+}
+body .men-shoe h3{
+    font-size: 20px;
+}
+body .men-shoe .control{
+    position: relative;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+}
+body .men-shoe label{
+    line-height: 30px;
+    color: #58a5cc;
+    font-size: large;
+}
+body .menu-right{
+    float: right;
+    width: 74%;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+body .menu-right .cost{
+    color: #c9192e;
+    font-weight: 600;
+    cursor: pointer;
+}
+body .menu-right table tr td{
+    outline: none;
+    padding-left: 10px;
+}
+body .menu-right{
+    line-height: 30px;
+}
+body .menu-right table tr img{
+    width: 100%;
+    margin: 0px;
+    height: 305px;
+}
+body .menu-right table tr .menu-a{
+    text-decoration: none;
+    font-weight: 400;
+    color: #58a5cc;
+}
+body .menu-right table tr .menu-a:hover{
+    color: #c9192e;
+}
+
